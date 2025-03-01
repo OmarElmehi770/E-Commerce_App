@@ -89,215 +89,35 @@ class Home extends StatelessWidget {
                 children: [
                   Product_Container(image_url: 'assets/img1.png',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
                   Spacer(),
-                  Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10),
-                      color: Colors.white,
-                    ),
-                    child: Column(
-                      children: [
-                        Container(
-                          width: 160,
-                          height: 150,
-                          decoration: BoxDecoration(
-                              borderRadius: BorderRadius.only(topLeft: Radius.circular(10),topRight: Radius.circular(10)),
-                              image: DecorationImage(
-                                  image: AssetImage('assets/img1.png'),
-                                  fit: BoxFit.fill)),
-                        ),
-                        Text("T-Shirt"),
-                        Text("\$ 99.99"),
-                      ],
-                    ),
-                  ),
+                  Product_Container(image_url: 'assets/img1.png',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
                 ],
               ),
               Row(
                 children: [
-                  Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10),
-                      color: Colors.white,
-                    ),
-                    child: Column(
-                      children: [
-                        Container(
-                          width: 160,
-                          height: 150,
-                          decoration: BoxDecoration(
-                              borderRadius: BorderRadius.only(topLeft: Radius.circular(10),topRight: Radius.circular(10)),
-                              image: DecorationImage(
-                                  image: AssetImage('assets/img1.png'),
-                                  fit: BoxFit.fill)),
-                        ),
-                        Text("T-Shirt"),
-                        Text("\$ 99.99"),
-                      ],
-                    ),
-                  ),
+                  Product_Container(image_url: 'assets/img1.png',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
                   Spacer(),
-                  Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10),
-                      color: Colors.white,
-                    ),
-                    child: Column(
-                      children: [
-                        Container(
-                          width: 160,
-                          height: 150,
-                          decoration: BoxDecoration(
-                              borderRadius: BorderRadius.only(topLeft: Radius.circular(10),topRight: Radius.circular(10)),
-                              image: DecorationImage(
-                                  image: AssetImage('assets/img1.png'),
-                                  fit: BoxFit.fill)),
-                        ),
-                        Text("T-Shirt"),
-                        Text("\$ 99.99"),
-                      ],
-                    ),
-                  ),
+                  Product_Container(image_url: 'assets/img1.png',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
                 ],
               ),
               Row(
                 children: [
-                  Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10),
-                      color: Colors.white,
-                    ),
-                    child: Column(
-                      children: [
-                        Container(
-                          width: 160,
-                          height: 150,
-                          decoration: BoxDecoration(
-                              borderRadius: BorderRadius.only(topLeft: Radius.circular(10),topRight: Radius.circular(10)),
-                              image: DecorationImage(
-                                  image: AssetImage('assets/img1.png'),
-                                  fit: BoxFit.fill)),
-                        ),
-                        Text("T-Shirt"),
-                        Text("\$ 99.99"),
-                      ],
-                    ),
-                  ),
+                  Product_Container(image_url: 'assets/img1.png',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
                   Spacer(),
-                  Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10),
-                      color: Colors.white,
-                    ),
-                    child: Column(
-                      children: [
-                        Container(
-                          width: 160,
-                          height: 150,
-                          decoration: BoxDecoration(
-                              borderRadius: BorderRadius.only(topLeft: Radius.circular(10),topRight: Radius.circular(10)),
-                              image: DecorationImage(
-                                  image: AssetImage('assets/img1.png'),
-                                  fit: BoxFit.fill)),
-                        ),
-                        Text("T-Shirt"),
-                        Text("\$ 99.99"),
-                      ],
-                    ),
-                  ),
+                  Product_Container(image_url: 'assets/img1.png',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
                 ],
               ),
               Row(
                 children: [
-                  Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10),
-                      color: Colors.white,
-                    ),
-                    child: Column(
-                      children: [
-                        Container(
-                          width: 160,
-                          height: 150,
-                          decoration: BoxDecoration(
-                              borderRadius: BorderRadius.only(topLeft: Radius.circular(10),topRight: Radius.circular(10)),
-                              image: DecorationImage(
-                                  image: AssetImage('assets/img1.png'),
-                                  fit: BoxFit.fill)),
-                        ),
-                        Text("T-Shirt"),
-                        Text("\$ 99.99"),
-                      ],
-                    ),
-                  ),
+                  Product_Container(image_url: 'assets/img1.png',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
                   Spacer(),
-                  Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10),
-                      color: Colors.white,
-                    ),
-                    child: Column(
-                      children: [
-                        Container(
-                          width: 160,
-                          height: 150,
-                          decoration: BoxDecoration(
-                              borderRadius: BorderRadius.only(topLeft: Radius.circular(10),topRight: Radius.circular(10)),
-                              image: DecorationImage(
-                                  image: AssetImage('assets/img1.png'),
-                                  fit: BoxFit.fill)),
-                        ),
-                        Text("T-Shirt"),
-                        Text("\$ 99.99"),
-                      ],
-                    ),
-                  ),
+                  Product_Container(image_url: 'assets/img1.png',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
                 ],
               ),
               Row(
                 children: [
-                  Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10),
-                      color: Colors.white,
-                    ),
-                    child: Column(
-                      children: [
-                        Container(
-                          width: 160,
-                          height: 150,
-                          decoration: BoxDecoration(
-                              borderRadius: BorderRadius.only(topLeft: Radius.circular(10),topRight: Radius.circular(10)),
-                              image: DecorationImage(
-                                  image: AssetImage('assets/img1.png'),
-                                  fit: BoxFit.fill)),
-                        ),
-                        Text("T-Shirt"),
-                        Text("\$ 99.99"),
-                      ],
-                    ),
-                  ),
+                  Product_Container(image_url: 'assets/img1.png',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
                   Spacer(),
-                  Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10),
-                      color: Colors.white,
-                    ),
-                    child: Column(
-                      children: [
-                        Container(
-                          width: 160,
-                          height: 150,
-                          decoration: BoxDecoration(
-                              borderRadius: BorderRadius.only(topLeft: Radius.circular(10),topRight: Radius.circular(10)),
-                              image: DecorationImage(
-                                  image: AssetImage('assets/img1.png'),
-                                  fit: BoxFit.fill)),
-                        ),
-                        Text("T-Shirt"),
-                        Text("\$ 99.99"),
-                      ],
-                    ),
-                  ),
+                  Product_Container(image_url: 'assets/img1.png',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
                 ],
               ),
             ],
