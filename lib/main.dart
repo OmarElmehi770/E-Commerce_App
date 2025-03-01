@@ -5,7 +5,7 @@ import 'package:flutter/cupertino.dart';
 // import 'BMI_Calculator/Calculation_Page.dart';
 import 'Sign_up.dart';
 import 'Sign_in.dart';
-import 'Home_page.dart';
+import 'Home.dart';
 
 void main() {
   runApp(const MyApp());

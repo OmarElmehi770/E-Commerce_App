@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'Main_Home/Home.dart';
-import 'Main_Home/Profile.dart';
-import 'Main_Home/Search.dart';
+import 'home_pages/Home.dart';
+import 'home_pages/Profile.dart';
+import 'home_pages/Search.dart';
 
 class Homepage extends StatefulWidget {
   const Homepage({super.key});
