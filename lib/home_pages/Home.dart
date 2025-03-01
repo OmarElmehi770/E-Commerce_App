@@ -21,107 +21,86 @@ class Home extends StatelessWidget {
                 scrollDirection: Axis.horizontal,
                 child: Row(
                   children: [
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Container(
-                        padding: EdgeInsets.all(10),
-                        child: Text("All",style: TextStyle(color: Colors.white),),
-                        decoration: BoxDecoration(
-                          color: Colors.black,
-                          borderRadius: BorderRadius.circular(15),
-                          border: Border.all(color: Colors.black),
-                        ),
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Container(
-                        padding: EdgeInsets.all(10),
-                        child: Text("Electronics",style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold),),
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(15),
-                          border: Border.all(color: Colors.black),
-                        ),
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Container(
-                        padding: EdgeInsets.all(10),
-                        child: Text("Fashion",style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold),),
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(15),
-                          border: Border.all(color: Colors.black),
-                        ),
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Container(
-                        padding: EdgeInsets.all(10),
-                        child: Text("Home & Kitshen",style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold),),
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(15),
-                          border: Border.all(color: Colors.black),
-                        ),
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Container(
-                        padding: EdgeInsets.all(10),
-                        child: Text("Clothes",style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold),),
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(15),
-                          border: Border.all(color: Colors.black),
-                        ),
-                      ),
-                    ),
+                    Categorise(category: "All",backgroundColor : Colors.black,textColor :Colors.white),
+                    Categorise(category: "Electronics",backgroundColor : Colors.white,textColor :Colors.black),
+                    Categorise(category: "Fashion",backgroundColor : Colors.white,textColor :Colors.black),
+                    Categorise(category: "Home & Kitshen",backgroundColor : Colors.white,textColor :Colors.black),
+                    Categorise(category: "Clothes",backgroundColor : Colors.white,textColor :Colors.black),
                   ],
                 ),
               ),
               SizedBox(height: 15,),
               Row(
                 children: [
-                  Product_Container(image_url: 'assets/img1.png',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
+                  Product_Container(image_url: 'assets/product_imgs/img1.jpeg',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
                   Spacer(),
-                  Product_Container(image_url: 'assets/img1.png',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
+                  Product_Container(image_url: 'assets/product_imgs/img1.jpeg',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
                 ],
               ),
               Row(
                 children: [
-                  Product_Container(image_url: 'assets/img1.png',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
+                  Product_Container(image_url: 'assets/product_imgs/img1.jpeg',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
                   Spacer(),
-                  Product_Container(image_url: 'assets/img1.png',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
+                  Product_Container(image_url: 'assets/product_imgs/img1.jpeg',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
                 ],
               ),
               Row(
                 children: [
-                  Product_Container(image_url: 'assets/img1.png',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
+                  Product_Container(image_url: 'assets/product_imgs/img1.jpeg',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
                   Spacer(),
-                  Product_Container(image_url: 'assets/img1.png',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
+                  Product_Container(image_url: 'assets/product_imgs/img1.jpeg',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
                 ],
               ),
               Row(
                 children: [
-                  Product_Container(image_url: 'assets/img1.png',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
+                  Product_Container(image_url: 'assets/product_imgs/img1.jpeg',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
                   Spacer(),
-                  Product_Container(image_url: 'assets/img1.png',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
+                  Product_Container(image_url: 'assets/product_imgs/img1.jpeg',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
                 ],
               ),
               Row(
                 children: [
-                  Product_Container(image_url: 'assets/img1.png',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
+                  Product_Container(image_url: 'assets/product_imgs/img1.jpeg',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
                   Spacer(),
-                  Product_Container(image_url: 'assets/img1.png',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
+                  Product_Container(image_url: 'assets/product_imgs/img1.jpeg',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
+                ],
+              ),
+              Row(
+                children: [
+                  Product_Container(image_url: 'assets/product_imgs/img1.jpeg',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
+                  Spacer(),
+                  Product_Container(image_url: 'assets/product_imgs/img1.jpeg',Product_name: "T-shirt",Product_price: "\$ 99.99", ),
                 ],
               ),
             ],
           ),
+        ),
+      ),
+    );
+  }
+}
+
+class Categorise extends StatelessWidget {
+  Categorise({
+    super.key,
+    required this.category,
+    required this.backgroundColor,
+    required this.textColor,
+  });
+  String category ;
+  Color backgroundColor ;
+  Color textColor ;
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: Container(
+        padding: EdgeInsets.all(10),
+        child: Text(category,style: TextStyle(color: textColor),),
+        decoration: BoxDecoration(
+          color: backgroundColor,
+          borderRadius: BorderRadius.circular(15),
+          border: Border.all(color: Colors.black),
         ),
       ),
     );
@@ -145,20 +124,24 @@ class Product_Container extends StatelessWidget {
         borderRadius: BorderRadius.circular(10),
         color: Colors.white,
       ),
-      child: Column(
-        children: [
-          Container(
-            width: 160,
-            height: 150,
-            decoration: BoxDecoration(
-                borderRadius: BorderRadius.only(topLeft: Radius.circular(10),topRight: Radius.circular(10)),
-                image: DecorationImage(
-                    image: AssetImage(image_url),
-                    fit: BoxFit.fill)),
-          ),
-          Text(Product_name),
-          Text(Product_price),
-        ],
+      child: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Container(
+              width: 160,
+              height: 150,
+              decoration: BoxDecoration(
+                  borderRadius: BorderRadius.only(topLeft: Radius.circular(10),topRight: Radius.circular(10)),
+                  image: DecorationImage(
+                      image: AssetImage(image_url),
+                      fit: BoxFit.fill)),
+            ),
+            Text(Product_name),
+            Text(Product_price),
+          ],
+        ),
       ),
     );
   }
