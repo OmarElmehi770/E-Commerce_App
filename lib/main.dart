@@ -3,9 +3,9 @@ import 'package:flutter/cupertino.dart';
 // import 'Sales_App/Home_Screan.dart';
 // import 'Session_3_task/Session_3_task.dart';
 // import 'BMI_Calculator/Calculation_Page.dart';
-import 'Sign_up.dart';
-import 'Sign_in.dart';
-import 'Home.dart';
+import 'presentation/Sign_up.dart';
+import 'presentation/Sign_in.dart';
+import 'presentation/home_pages/Home_Page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,12 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'IEEE Tasks',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: SignIn(),
+      home: Home(),
     );
   }
 }
